@@ -32,5 +32,8 @@
 | Name | Description | Type | Default |
 |------|-------------|------|---------|
 | create_ecr | Flag to create a new ECR Repository | bool | false |
+| scan_images | Flag to scan images upon push | bool | true |
+| timeouts_delete | Timeout value on deletion | string | 60m |
+| image_tag_mutability | Image tag mutability | string | MUTABLE |
 
 ## S3
