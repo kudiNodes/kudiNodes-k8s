@@ -32,10 +32,18 @@
 | Name | Description | Type | Default |
 |------|-------------|------|---------|
 | create_ecr | Flag to create a new ECR Repository | bool | false |
-| scan_images | Flag to scan images upon push | bool | true |
-| timeouts_delete | Timeout value on deletion | string | 60m |
-| image_tag_mutability | Image tag mutability | string | MUTABLE |
-| ecr_actions | list of policy actions to enable for the ECR repository | string | "ecr:*" |
-
+| ecr_scan_images | Flag to scan images upon push | bool | true |
+| ecr_timeouts_delete | Timeout value on deletion | string | 60m |
+| ecr_image_tag_mutability | Image tag mutability | string | MUTABLE |
+| ecr_policy_actions | list of policy actions to enable for the ECR repository | string | "ecr:*" |
 
 ## S3
+| Name | Description | Type | Default |
+|------|-------------|------|---------|
+| create_bucket | Flag to create a new S3 Bucket | bool | false |
+
+## Cognito
+| Name | Description | Type | Default |
+|------|-------------|------|---------|
+| create_cognito | Flag to create a new cognito user/identity pool | bool | false |
+
