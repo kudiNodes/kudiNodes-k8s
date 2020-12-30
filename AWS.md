@@ -35,5 +35,7 @@
 | scan_images | Flag to scan images upon push | bool | true |
 | timeouts_delete | Timeout value on deletion | string | 60m |
 | image_tag_mutability | Image tag mutability | string | MUTABLE |
+| ecr_actions | list of policy actions to enable for the ECR repository | string | "ecr:*" |
+
 
 ## S3
