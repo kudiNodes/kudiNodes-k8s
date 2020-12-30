@@ -29,5 +29,8 @@
 | cluster_roles             | Additional IAM roles to add to the aws-auth configmap<br><br>The following attributes are required for each object:<br>rolearn  - string<br>username - string<br>groups   - list(string)                                                                                                                   | list(object) |                                                                                                                                                                                  |
 | cluster_users             | Additional IAM users to add to the aws-auth configmap<br><br>The following attributes are required for each object:<br>userarn  - string<br>username - string<br>groups   - list(string)                                                                                                                   | list(object) |                                                                                                                                                                                  |
 ## ECR
+| Name | Description | Type | Default |
+|------|-------------|------|---------|
+| create_ecr | Flag to create a new ECR Repository | bool | false |
 
 ## S3
