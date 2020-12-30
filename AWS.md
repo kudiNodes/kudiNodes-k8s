@@ -1,4 +1,4 @@
-# KudiNodes Kubernetes Infrastructure
+# KudiNodes Kubernetes Infrastructure on AWS
 
 ## VPC Network
 | Name                      | Description                                                                                                                                                                    | Type         | Default       |
